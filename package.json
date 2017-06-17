@@ -1,0 +1,38 @@
+{
+  "name": "vue-dynamic-props",
+  "version": "0.0.2",
+  "description": "A Vue mixin to sync props to data in real-time",
+  "main": "lib/dynamicProps.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "prepublish": "npm run build",
+    "lint": "eslint --fix lib; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/posrix/vue-dynamic-props.git"
+  },
+  "keywords": [
+    "mixin",
+    "vue",
+    "data",
+    "props",
+    "dynamic"
+  ],
+  "author": "posrix <posrix@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/posrix/vue-dynamic-props/issues"
+  },
+  "homepage": "https://github.com/posrix/vue-dynamic-props",
+  "dependencies": {
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint-config-posrix": "^0.0.1",
+    "eslint": "^3.7.1"
+  }
+}
