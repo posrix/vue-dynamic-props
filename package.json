@@ -2,7 +2,7 @@
   "name": "vue-dynamic-props",
   "version": "0.0.2",
   "description": "A Vue mixin to sync props to data in real-time",
-  "main": "lib/dynamicProps.js",
+  "main": "dist/dynamicProps.js",
   "scripts": {
     "build": "babel lib -d dist",
     "prepublish": "npm run build",
